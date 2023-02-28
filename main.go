@@ -77,7 +77,7 @@ func main() {
 		yearII := record[year2Idx]
 		yearIII := record[year3Idx]
 
-		// Convert the age from string to int
+		// Convert the year from string to int
 		year1, err1 := strconv.Atoi(yearI)
 		year2, err2 := strconv.Atoi(yearII)
 		year3, err3 := strconv.Atoi(yearIII)
